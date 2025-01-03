@@ -8,7 +8,6 @@ Run, "D:\PortableApps\Notepad++Portable\Notepad++Portable.exe" `"%clipboard%`"
 ; Turn off Caps Lock on script startup
 SetCapsLockState, AlwaysOff
 
-; Make CapsLock send LShift
-; send left shift if it is used with another key
+; Make CapsLock send Esc
 #CapsLock::CapsLock
-CapsLock::LShift
+CapsLock::Esc
